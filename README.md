@@ -36,6 +36,10 @@ El proyecto cuenta con un endpoint para la carga del archivo a procesar y ejecut
    ```bash
    php artisan key:generate
 
+- **Dentro del contenedor de PHP, ejecutar las migraciones**:
+   ```bash
+   php artisan migrate
+
 - **Dentro del contenedor de PHP, ejecutar el worker**:
    ```bash
    php artisan queue:work

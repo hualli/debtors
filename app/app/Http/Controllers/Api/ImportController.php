@@ -30,7 +30,7 @@ class ImportController extends Controller
             }
 
             return response()->json([
-                'message' => 'Import completed'
+                'message' => 'Import in progress'
             ],200);
 
         }catch (\Exception $e){
